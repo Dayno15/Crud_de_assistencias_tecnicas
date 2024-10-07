@@ -1,0 +1,90 @@
+
+
+.titulo {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Courier New', monospace;
+    
+}
+
+/* Estilização do container do formulário */
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    
+}
+
+/* Estilização do formulário */
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', monospace;
+
+}
+
+.edit-form label {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #555;
+    
+    
+
+}
+
+.edit-form input[type="text"],
+.edit-form input[type="date"],
+.edit-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 13px;
+    font-family: 'Courier New', monospace;
+}
+
+.edit-form textarea {
+    height: 80px;
+    resize: vertical;
+}
+
+.submit-button {
+    margin-top: 20px;
+    background-color: #000000;
+   
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: 'Courier New', monospace;
+}
+
+.submit-button:hover {
+    background-color: #1E90FF;
+   
+}
+
+.edit-form input[type="submit"] {
+    transition: background-color 0.3s;
+    margin-bottom: 50px;
+}
+
+/* Estilos adicionais para maior responsividade */
+@media (max-width: 600px) {
+    .form-container {
+        padding: 10px;
+    }
+
+    .submit-button {
+        padding: 8px;
+    }
+}

@@ -1,0 +1,150 @@
+
+body {
+    max-width: 100%;
+    font-family: 'Courier New', monospace;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 10px;
+}
+
+.titulo {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.button-container {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.add-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.add-button:hover {
+    background-color: #45a049;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+.assistencias-table {
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-left: 210px;
+    margin: 14px;
+    left: 15px;
+   width: 98%;
+}
+
+.assistencias-table th, .assistencias-table td {
+    padding: 8px;
+    text-align:center;
+    border: 1px solid #ddd;
+    margin: 3px;
+    font-size: 15px;
+    
+
+}
+
+.assistencias-table th {
+    background-color: #000000;
+    color: #fff;
+    letter-spacing: 0.1em;
+    font-size: 13px;
+    text-align: center;
+
+}
+
+.assistencias-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.assistencias-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+
+.action-link {
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+    margin-right: 5px;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 12px;
+}
+
+.action-link.edit {
+    background-color: #1E90FF;
+}
+
+.action-link.edit:hover {
+    background-color: #1C86EE;
+    transform: translateY(-2px);
+}
+
+.action-link.delete {
+    background-color: #FF6347;
+}
+
+.action-link.delete:hover {
+    background-color: #FF4500;
+    transform: translateY(-2px);
+}
+.assistencia-tr{
+    font-size: 20px;
+}
+
+
+.main-header {
+    background-color: #333;
+    padding: 10px 0;
+    color: white;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.navbar ul li a:hover {
+    background-color: #575757;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 768px) {
+    .assistencias-table, .assistencias-table th, .assistencias-table td {
+        font-size: 14px;
+    }
+
+    .add-button {
+        padding: 8px 12px;
+    }
+}

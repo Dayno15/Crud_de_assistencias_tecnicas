@@ -1,0 +1,44 @@
+
+.relatorio {
+    margin-top: 20px;
+    padding: 50px;
+    background-color: #000000;
+    border-radius: 8px;
+    font-family: 'Courier New', monospace;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.relatorio h2 {
+    font-size: 20px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.relatorio h3 { 
+    font-size: 17px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+.relatorio p {
+    font-size: 12px;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+.header {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
