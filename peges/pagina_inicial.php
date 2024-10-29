@@ -28,8 +28,8 @@ include '../includes/header.php'; // Incluindo o cabeçalho
                 - <strong>create.php:</strong> Página que permite adicionar novas assistências técnicas ao sistema.<br>
                 - <strong>edit.php:</strong> Página que permite editar as informações de uma assistência técnica existente.<br>
                 - <strong>home.php:</strong> Cabeçalho de navegação incluído em todas as páginas.<br>
-                - <strong>db.php:</strong> Arquivo responsável pela conexão com o banco de dados MongoDB.<br>
-                - <strong>includes:</strong> Pasta que contém o arquivo `home.php` para o cabeçalho de navegação.<br>
+                - <strong>db.php:</strong> Arquivo responsável pela conexão com o banco de dados MongoDB (Breve explicação de como fazer a conexão com o MongoDB. https://www.mongodb.com/pt-br/docs/php-library/v1.16/tutorial/connecting/).<br>
+                - <strong>includes:</strong> Pasta que contém o arquivo `header.php``footer.php` para o cabeçalho de navegação.<br>
                 - <strong>css:</strong> Pasta onde estão armazenados os arquivos de estilo (CSS).<br>
                 - <strong>vendor:</strong> Pasta gerada automaticamente pelo Composer.
             </p>
